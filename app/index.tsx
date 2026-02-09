@@ -1,7 +1,7 @@
 import { ThemedText } from "@/components/ThemedText";
 import { getHighScore } from "@/constants/storage";
 import { Colors } from "@/constants/theme";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { useColorScheme } from "@/hooks/use-color-scheme";
 import { useFocusEffect } from "@expo/router";
 import { useRouter } from "expo-router";
 import { useCallback, useState } from "react";

@@ -1,7 +1,7 @@
 import { GameGrid } from "@/components/GameGrid";
 import { ThemedText } from "@/components/ThemedText";
 import { Colors } from "@/constants/theme";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { useColorScheme } from "@/hooks/use-color-scheme";
 import { GameMode, useGameLogic } from "@/hooks/useGameLogic";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect } from "react";
