@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wadisays.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,6 +19,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "package": "com.wadisays.app",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
@@ -38,8 +40,17 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "wadisays"
+        }
       ]
     ],
+    "updates": {
+      "url": "https://u.expo.dev/project-id"
+    },
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
